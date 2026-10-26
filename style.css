@@ -1,0 +1,92 @@
+/* Main website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #222222;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #444444;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main page */
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+/* Information boxes */
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+/* Headings */
+h2 {
+    color: #333333;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Source links */
+main a {
+    color: #333333;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    main {
+        margin: 10px;
+    }
+}
